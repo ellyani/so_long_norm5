@@ -46,7 +46,6 @@ int	animation(t_map **slong)
 {
 	static int	g_frame_counter;
 
-	g_frame_counter = 0;
 	g_frame_counter++;
 	if (g_frame_counter >= MOVE_INTERVAL)
 	{
